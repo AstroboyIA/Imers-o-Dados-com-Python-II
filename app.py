@@ -185,7 +185,7 @@ with col_graf4:
     else:
         st.warning("Nenhum dado para exibir no mapa de medalhas.")
 
-col_graf5 = st.columns(1)
+col_graf5 = st.columns(1)[0]
 
 with col_graf5:
     if not df_filtrado.empty:
